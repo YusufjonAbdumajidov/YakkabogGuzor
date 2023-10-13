@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 .mainContainer{
     width: 100%;
     height: 100vh;
@@ -38,6 +42,11 @@
             margin-top: 30px;
             font-weight: bold;
             background-color: rgb(58, 58, 226);
+            transition: all .4s;
+            &:hover{
+                background: none;
+                border: 1px solid #fff;
+            }
             a{
                 color: #fff;
             }
@@ -95,6 +104,10 @@
                             font-weight: bold;
                             font-size: 18px;
                             text-decoration: none;
+                            transition: all .3s;
+                            &:hover{
+                                color: rgb(58, 58, 226);
+                            }
                             &:nth-child(6){
                                 margin-right: 0;
                             }

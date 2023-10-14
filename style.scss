@@ -253,7 +253,7 @@ a{
         background-size: cover;
         .showcase{
             text-align: center;
-            transform: translateY(160px);
+            transform: translateY(180px);
             h1{
                 font-size: 30px;
                 color: #fff;
@@ -356,7 +356,7 @@ a{
     .mainContainer{
         .showcase{
             text-align: center;
-            transform: translateY(50px)
+            transform: translateY(240px);
             h1{
                 font-size: 30px;
                 color: #fff;
@@ -366,6 +366,7 @@ a{
                 font-size: 16px;
                 color: #fff;
                 letter-spacing: 1px;
+                margin-bottom: 20px;
             }
             button{
                 padding: 12px 26px;
@@ -395,7 +396,8 @@ a{
             // color: #fff;
             .navbar{
                 width: 100%;
-                
+                position: fixed;
+                z-index: 11111111111111111111;
                 section{
                     margin: 0 auto;
                     &:nth-child(1){
@@ -404,9 +406,13 @@ a{
                         // border: 1px solid #fff;
                         display: flex;
                         justify-content: space-between;
+                        
+                        background-color: rgb(131, 131, 255);
+                        
                         span{
                             font-weight: 300;
                             font-size: 12px;
+                            color: #fff;
                         }
                     }
                    
@@ -414,13 +420,14 @@ a{
                     &:nth-child(2){
                         // height: 10vh;
                         padding: 26px 10px;
-                        border-radius: 4px;
+                        border-radius: 0px;
                         width: 100%;
                         position: fixed;
-                        margin: 0 auto;
+                        background-color: rgb(1, 1, 86);
                         
                         // border: 1px solid #fff;
-                        background-color: rgb(0, 0, 0, .4);
+                       
+                        z-index: 1111111;
                         display: flex;
                         align-items: center;
                         justify-content: space-between;

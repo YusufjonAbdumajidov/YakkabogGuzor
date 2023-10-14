@@ -111,6 +111,281 @@ a {
   margin-right: 0;
 }
 
+@media (max-width: 760px) {
+  .mainContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/backPic.jpg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainContainer .showcase {
+    text-align: center;
+    transform: translateY(160px);
+  }
+  .mainContainer .showcase h1 {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .mainContainer .showcase p {
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .mainContainer .showcase button {
+    padding: 12px 26px;
+    font-size: 22px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: rgb(58, 58, 226);
+  }
+  .mainContainer .showcase button a {
+    color: #fff;
+  }
+  .mainContainer .coverBack {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.6);
+    position: absolute;
+  }
+  .mainContainer main {
+    position: relative;
+    z-index: 111111;
+  }
+  .mainContainer main .navbar {
+    width: 100%;
+  }
+  .mainContainer main .navbar section {
+    margin: 0 auto;
+  }
+  .mainContainer main .navbar section:nth-child(1) {
+    padding: 10px 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainContainer main .navbar section:nth-child(1) span {
+    font-weight: bold;
+  }
+  .mainContainer main .navbar section:nth-child(2) {
+    padding: 26px 20px;
+    border-radius: 8px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mainContainer main .navbar section:nth-child(2) .logo {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-right: 22px;
+  }
+  .mainContainer main .navbar section:nth-child(2) div {
+    display: flex;
+  }
+  .mainContainer main .navbar section:nth-child(2) div p {
+    margin-right: 14px;
+    cursor: pointer;
+    color: rgb(237, 237, 237);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .mainContainer main .navbar section:nth-child(2) div p:nth-child(6) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 600px) {
+  .mainContainer {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/backPic.jpg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainContainer .showcase {
+    text-align: center;
+    transform: translateY(160px);
+  }
+  .mainContainer .showcase h1 {
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .mainContainer .showcase p {
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .mainContainer .showcase button {
+    padding: 12px 26px;
+    font-size: 22px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: rgb(58, 58, 226);
+  }
+  .mainContainer .showcase button a {
+    color: #fff;
+  }
+  .mainContainer .coverBack {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.7);
+    position: absolute;
+  }
+  .mainContainer main {
+    position: relative;
+    z-index: 111111;
+  }
+  .mainContainer main .navbar {
+    width: 100%;
+  }
+  .mainContainer main .navbar section {
+    margin: 0 auto;
+  }
+  .mainContainer main .navbar section:nth-child(1) {
+    padding: 10px 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainContainer main .navbar section:nth-child(1) span {
+    font-weight: bold;
+  }
+  .mainContainer main .navbar section:nth-child(2) {
+    padding: 26px 20px;
+    border-radius: 8px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mainContainer main .navbar section:nth-child(2) .logo {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-right: 12px;
+  }
+  .mainContainer main .navbar section:nth-child(2) div {
+    display: flex;
+  }
+  .mainContainer main .navbar section:nth-child(2) div p {
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(237, 237, 237);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .mainContainer main .navbar section:nth-child(2) div p:nth-child(6) {
+    margin-right: 0;
+  }
+}
+@media (max-width: 500px) {
+  .mainContainer .showcase {
+    text-align: center;
+    transform: translateY(50px) h1;
+    transform-font-size: 30px;
+    transform-color: #fff;
+    transform-letter-spacing: 1px;
+  }
+  .mainContainer .showcase p {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .mainContainer .showcase button {
+    padding: 12px 26px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: rgb(58, 58, 226);
+  }
+  .mainContainer .showcase button a {
+    color: #fff;
+  }
+  .mainContainer .coverBack {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.7);
+    position: absolute;
+  }
+  .mainContainer main {
+    position: relative;
+    z-index: 111111;
+  }
+  .mainContainer main .navbar {
+    width: 100%;
+  }
+  .mainContainer main .navbar section {
+    margin: 0 auto;
+  }
+  .mainContainer main .navbar section:nth-child(1) {
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mainContainer main .navbar section:nth-child(1) span {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .mainContainer main .navbar section:nth-child(2) {
+    padding: 26px 10px;
+    border-radius: 8px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mainContainer main .navbar section:nth-child(2) .logo {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-right: 12px;
+  }
+  .mainContainer main .navbar section:nth-child(2) div {
+    display: flex;
+  }
+  .mainContainer main .navbar section:nth-child(2) div p {
+    margin-right: 10px;
+    cursor: pointer;
+    color: rgb(237, 237, 237);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .mainContainer main .navbar section:nth-child(2) div p:nth-child(6) {
+    margin-right: 0;
+  }
+}
 .about {
   background-color: rgb(234, 250, 255);
   padding: 80px 40px 40px 40px;
@@ -1072,195 +1347,5 @@ footer p {
   }
   .about div button:hover {
     transform: scale3d(1.1, 1.1, 1.1);
-  }
-}
-@media (max-width: 760px) {
-  .mainContainer {
-    width: 100%;
-    height: 100vh;
-    background-image: url("./assets/backPic.jpg");
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .mainContainer .showcase {
-    text-align: center;
-    transform: translateY(160px);
-  }
-  .mainContainer .showcase h1 {
-    font-size: 50px;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .mainContainer .showcase p {
-    font-size: 24px;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .mainContainer .showcase button {
-    padding: 12px 26px;
-    font-size: 22px;
-    border-radius: 6px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-weight: bold;
-    background-color: rgb(58, 58, 226);
-  }
-  .mainContainer .showcase button a {
-    color: #fff;
-  }
-  .mainContainer .coverBack {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(17, 17, 17, 0.6);
-    position: absolute;
-  }
-  .mainContainer main {
-    position: relative;
-    z-index: 111111;
-  }
-  .mainContainer main .navbar {
-    width: 100%;
-  }
-  .mainContainer main .navbar section {
-    margin: 0 auto;
-  }
-  .mainContainer main .navbar section:nth-child(1) {
-    padding: 10px 20px;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .mainContainer main .navbar section:nth-child(1) span {
-    font-weight: bold;
-  }
-  .mainContainer main .navbar section:nth-child(2) {
-    padding: 26px 20px;
-    border-radius: 8px;
-    width: 80%;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .mainContainer main .navbar section:nth-child(2) .logo {
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 20px;
-    margin-right: 22px;
-  }
-  .mainContainer main .navbar section:nth-child(2) div {
-    display: flex;
-  }
-  .mainContainer main .navbar section:nth-child(2) div p {
-    margin-right: 14px;
-    cursor: pointer;
-    color: rgb(237, 237, 237);
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 16px;
-    text-decoration: none;
-  }
-  .mainContainer main .navbar section:nth-child(2) div p:nth-child(6) {
-    margin-right: 0;
-  }
-}
-@media (max-width: 600px) {
-  .mainContainer {
-    width: 100%;
-    height: 100vh;
-    background-image: url("./assets/backPic.jpg");
-    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .mainContainer .showcase {
-    text-align: center;
-    transform: translateY(160px);
-  }
-  .mainContainer .showcase h1 {
-    font-size: 50px;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .mainContainer .showcase p {
-    font-size: 24px;
-    color: #fff;
-    letter-spacing: 1px;
-  }
-  .mainContainer .showcase button {
-    padding: 12px 26px;
-    font-size: 22px;
-    border-radius: 6px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    letter-spacing: 1px;
-    margin-top: 30px;
-    font-weight: bold;
-    background-color: rgb(58, 58, 226);
-  }
-  .mainContainer .showcase button a {
-    color: #fff;
-  }
-  .mainContainer .coverBack {
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(17, 17, 17, 0.7);
-    position: absolute;
-  }
-  .mainContainer main {
-    position: relative;
-    z-index: 111111;
-  }
-  .mainContainer main .navbar {
-    width: 100%;
-  }
-  .mainContainer main .navbar section {
-    margin: 0 auto;
-  }
-  .mainContainer main .navbar section:nth-child(1) {
-    padding: 10px 20px;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .mainContainer main .navbar section:nth-child(1) span {
-    font-weight: bold;
-  }
-  .mainContainer main .navbar section:nth-child(2) {
-    padding: 26px 20px;
-    border-radius: 8px;
-    width: 80%;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .mainContainer main .navbar section:nth-child(2) .logo {
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 18px;
-    margin-right: 12px;
-  }
-  .mainContainer main .navbar section:nth-child(2) div {
-    display: flex;
-  }
-  .mainContainer main .navbar section:nth-child(2) div p {
-    margin-right: 10px;
-    cursor: pointer;
-    color: rgb(237, 237, 237);
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  .mainContainer main .navbar section:nth-child(2) div p:nth-child(6) {
-    margin-right: 0;
   }
 }/*# sourceMappingURL=style.css.map */

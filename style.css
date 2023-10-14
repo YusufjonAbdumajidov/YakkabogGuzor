@@ -263,7 +263,7 @@ a {
   }
   .mainContainer main .navbar section:nth-child(1) {
     padding: 10px 20px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -357,8 +357,10 @@ a {
   }
   .mainContainer main .navbar section:nth-child(2) {
     padding: 26px 10px;
-    border-radius: 8px;
-    width: 80%;
+    border-radius: 4px;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
